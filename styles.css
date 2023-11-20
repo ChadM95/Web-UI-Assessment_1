@@ -1,0 +1,79 @@
+#header {
+    display:inline-block;
+    background-color: silver;
+    height: 150px;
+    width: 100%;
+    padding:10px;
+}
+
+#headerImg {
+    float:right;
+    height:auto;
+    width:200px;
+    padding-right: 50px;
+}
+
+.nintendo {
+    text-decoration: none;
+    background-image: url("./Nintendo.jpg");
+}
+
+.xbox {
+    text-decoration: none;
+    background-image: url("./XBox.jpg");
+}
+
+.nintendo, .xbox {
+    text-align: center;
+    display:block;
+    width: 300px;
+    height:40px;
+    margin:10px;
+}
+
+.contact{
+    border:10px red;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color:red;
+}
+
+#middle {
+    display:inline;
+}
+
+
+#middle2 {
+    float:right;
+}
+
+#gameOn {
+    margin:20px;
+    padding:20px;
+    color:black;
+    width:100px;
+    height:20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+video{
+    width:auto;
+    height: 250px;
+    margin-top: 50px;
+}
+
+#buttons {
+    display: block;
+    float:right;
+}
+
+footer {
+    color:blue;
+    background-color: yellow;
+    height:50px;
+    padding-left: 45%;
+    position:bottom;
+}
